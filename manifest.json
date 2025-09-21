@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Movie Magic",
+  "version": "2.0",
+  "description": "Captures the IMDb ID from a movie page and redirects to a custom endpoint.",
+  "permissions": [
+    "activeTab"
+    
+  ],
+ 
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup":"popup.html",
+    "default_icon": "icon.png",
+    "default_title": "Movie Magic"
+  }
+}
